@@ -1,0 +1,107 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+
+body
+/* {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #C0E1D2;
+  padding: 30px;
+} */
+{
+  margin-top: 5rem;
+  margin-right: 10rem;
+  margin-left: 10rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #C0E1D2;
+}
+
+roboto-light p, li{
+  font-family: "Roboto", cursive;
+  font-weight: 300;
+  font-style: normal;
+  color: #ac7e53;
+  font-size: 14pt;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* background-color: #E07B39;
+  border-style: solid;
+  border-color: #B6A28E;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px; */
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* li{
+ font-family: "Comic Neue", cursive;
+ font-weight: 300;
+ font-style: normal;
+}  */
+
+h1,h2, h3{
+ font-family: "Lobster", sans-serif;
+ font-weight: 120;
+ font-style: normal;
+  color: #564343; 
+} 
+
+h1{
+  font-size: 36pt;
+  color: green;
+}
+
+.card{
+  background-color: #f9f8f0;
+  padding: 50PX;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.container{
+  padding: 60px;
+  margin: 20px auto;
+}
+
+nav, ul, li {
+  list-style-type: none;
+  display: inline;
+  /* padding: 10px; */
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+nav{
+  background-color: #E07B39;
+  padding: 10px;
+  border: 2px solid #B6A28E;
+  border-radius: 8px;
+  /* border-style: solid;
+  border-color: #FBF8EF;
+  border-width: 5px;
+  border-radius: 8px; */
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+video {
+  height: auto;
+  max-width: 100%;
+}
